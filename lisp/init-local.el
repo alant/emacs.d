@@ -14,5 +14,4 @@
 (setq deft-extension "txt")
 (setq deft-use-filename-as-title t)
 
-
 (provide 'init-local)
