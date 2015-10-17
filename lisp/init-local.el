@@ -14,4 +14,8 @@
 (setq deft-extension "txt")
 (setq deft-use-filename-as-title t)
 
+;; default window size
+(add-to-list 'default-frame-alist '(height . 56))
+(add-to-list 'default-frame-alist '(width . 85))
+
 (provide 'init-local)
